@@ -26,12 +26,12 @@ nav {
 .hero-image > img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 25px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.417);
 }
 
 .about-me {
-  border-radius: 10px;
+  border-radius: 25px;
   background-color: rgba(251, 251, 251, 0.931);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.417);
 }
@@ -196,4 +196,49 @@ h2 > a:hover {
 
 #skills-h {
   margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  background-color: rgb(242, 242, 242);
+  padding-top: 30px;
+}
+
+#contact-me > a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.931);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.136);
+  margin: 30px;
+}
+
+#contact-me > a:hover {
+  color: grey;
+}
+
+#altcademy > a {
+  color: rgb(165, 165, 165);
+}
+
+#altcademy {
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+#link-alt > a {
+  margin-top: -100px;
+  color: black;
+  text-decoration: none;
+}
+
+#link-alt > a:hover {
+  color: grey;
 }
