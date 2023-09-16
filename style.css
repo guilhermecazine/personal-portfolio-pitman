@@ -74,6 +74,8 @@ nav {
   padding-right: 50px;
   background-color: rgb(242, 242, 242);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.417);
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 .my-work-img > img {
@@ -105,6 +107,15 @@ nav {
   h2 {
     text-align: center;
   }
+
+  #skills-h {
+    text-align: center;
+  }
+  
+  #in-d {
+    text-align: center;
+  }
+
 }
 
 h2 {
@@ -134,3 +145,55 @@ h2 > a:hover {
   font-size: 12px;
 }
 
+/* SKILLS */
+
+.skills {
+  padding: 50px;
+}
+
+.skills-items {
+  border-radius: 10px;
+  background-color: rgba(251, 251, 251, 0.931);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.417);
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.skills-items > p > i {
+  font-size: 30px;
+}
+
+.skills-items > p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.skills-items-d {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.931);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.136);
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.skills-items-d > p > i {
+  font-size: 30px;
+  color: rgb(213, 210, 210);
+}
+
+.skills-items-d > p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+  color: rgb(213, 210, 210);
+}
+
+#in-d {
+  color: rgb(213, 210, 210);
+  margin-bottom: 20px;
+}
+
+#skills-h {
+  margin-bottom: 20px;
+}
