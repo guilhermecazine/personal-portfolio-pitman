@@ -1,7 +1,7 @@
 /* NAVBAR */
 
 nav {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
   padding: 50px;
 }
 
@@ -15,4 +15,53 @@ nav {
 
 .navbar-brand {
   font-size: 24px;
+}
+
+/* HERO */
+
+.hero {
+  padding: 50px;
+}
+
+.hero-image > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.417);
+}
+
+.about-me {
+  border-radius: 10px;
+  background-color: rgba(251, 251, 251, 0.931);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.417);
+}
+
+@media (min-width: 992px) {
+  .about-me {
+    margin-left: -80px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    margin-top: 20px;
+  }
+}
+
+.about-me > h1 {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.about-me > p {
+  font-size: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-me > p:last-child {
+  padding-bottom: 20px;
 }
