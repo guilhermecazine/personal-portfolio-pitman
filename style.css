@@ -242,3 +242,7 @@ h2 > a:hover {
 #link-alt > a:hover {
   color: grey;
 }
+
+#footer-head {
+  font-size: 20px;
+}
